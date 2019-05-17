@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="144.629" tests="12" errors="6" skipped="4" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.3+12-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Shared/Jenkins/Documents/cucumberComSelWebDriver/herbert"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Shared/Jenkins/Documents/cucumberComSelWebDriver/herbert"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.3+12-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/Shared/Jenkins"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given User access the Amaricanas Website" classname="Scenario: User Search Phone Iphone" time="0.001"/>
+  <testcase name="Given User Write &quot;iphone&quot; on field for Search" classname="Scenario: User Search Phone Iphone" time="0.01">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.38)&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000207-wl.lab.dextra.com.br&apos;, ip: &apos;172.16.121.149&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]&#10;Session ID: d782deada6908e967af71b74438c74c9&#10;*** Element info: {Using=id, value=h_search-input}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: d782deada6908e967af71b74438c74c9
+*** Element info: {Using=id, value=h_search-input}
+</error>
+    <system-err><![CDATA[May 17, 2019 11:47:22 AM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: User Search Phone Iphone" classname="Scenario: User Search Phone Iphone" time="0.017">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.38)&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000207-wl.lab.dextra.com.br&apos;, ip: &apos;172.16.121.149&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]&#10;Session ID: d782deada6908e967af71b74438c74c9&#10;*** Element info: {Using=id, value=h_search-input}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: d782deada6908e967af71b74438c74c9
+*** Element info: {Using=id, value=h_search-input}
+</error>
+  </testcase>
+  <testcase name="Scenario: User Search Phone Iphone" classname="Scenario: User Search Phone Iphone" time="0.041">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.38)&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000207-wl.lab.dextra.com.br&apos;, ip: &apos;172.16.121.149&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]&#10;Session ID: d782deada6908e967af71b74438c74c9" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: d782deada6908e967af71b74438c74c9
+</error>
+    <system-out><![CDATA[
+--- Scenario User Search Phone Iphone executed ---
+]]></system-out>
+    <system-err><![CDATA[May 17, 2019 11:47:22 AM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="And User Click For Search" classname="Scenario: User Search Phone Iphone" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User views &quot;iphone&quot; For Title Search" classname="Scenario: User Search Phone Iphone" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User access the Amaricanas Website" classname="Scenario: User Search Phone Celular" time="0"/>
+  <testcase name="Given User Write &quot;celular&quot; on field for Search" classname="Scenario: User Search Phone Celular" time="0.008">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.38)&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000207-wl.lab.dextra.com.br&apos;, ip: &apos;172.16.121.149&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]&#10;Session ID: b81346d75f3f261a5dcba5c5d8829dcc&#10;*** Element info: {Using=id, value=h_search-input}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: b81346d75f3f261a5dcba5c5d8829dcc
+*** Element info: {Using=id, value=h_search-input}
+</error>
+    <system-err><![CDATA[May 17, 2019 11:47:49 AM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: User Search Phone Celular" classname="Scenario: User Search Phone Celular" time="0.009">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.38)&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000207-wl.lab.dextra.com.br&apos;, ip: &apos;172.16.121.149&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]&#10;Session ID: b81346d75f3f261a5dcba5c5d8829dcc&#10;*** Element info: {Using=id, value=h_search-input}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: b81346d75f3f261a5dcba5c5d8829dcc
+*** Element info: {Using=id, value=h_search-input}
+</error>
+  </testcase>
+  <testcase name="Scenario: User Search Phone Celular" classname="Scenario: User Search Phone Celular" time="0.029">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=75.0.3770.38)&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000207-wl.lab.dextra.com.br&apos;, ip: &apos;172.16.121.149&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]&#10;Session ID: b81346d75f3f261a5dcba5c5d8829dcc" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: b81346d75f3f261a5dcba5c5d8829dcc
+</error>
+    <system-out><![CDATA[
+--- Scenario User Search Phone Celular executed ---
+]]></system-out>
+    <system-err><![CDATA[May 17, 2019 11:47:49 AM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="And User Click For Search Celular" classname="Scenario: User Search Phone Celular" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User views &quot;celular&quot; For Title Search" classname="Scenario: User Search Phone Celular" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

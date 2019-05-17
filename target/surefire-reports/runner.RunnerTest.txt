@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 6, Skipped: 4, Time elapsed: 144.629 sec <<< FAILURE! - in runner.RunnerTest
+Given User Write "iphone" on field for Search(Scenario: User Search Phone Iphone)  Time elapsed: 0.01 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: d782deada6908e967af71b74438c74c9
+*** Element info: {Using=id, value=h_search-input}
+
+Scenario: User Search Phone Iphone  Time elapsed: 0.017 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: d782deada6908e967af71b74438c74c9
+*** Element info: {Using=id, value=h_search-input}
+
+Scenario: User Search Phone Iphone  Time elapsed: 0.041 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.055Gq3}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53830}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: d782deada6908e967af71b74438c74c9
+
+Given User Write "celular" on field for Search(Scenario: User Search Phone Celular)  Time elapsed: 0.008 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: b81346d75f3f261a5dcba5c5d8829dcc
+*** Element info: {Using=id, value=h_search-input}
+
+Scenario: User Search Phone Celular  Time elapsed: 0.009 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: b81346d75f3f261a5dcba5c5d8829dcc
+*** Element info: {Using=id, value=h_search-input}
+
+Scenario: User Search Phone Celular  Time elapsed: 0.029 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.38)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000207-wl.lab.dextra.com.br', ip: '172.16.121.149', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}), userDataDir=/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/.com.google.Chrome.pTeCEC}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53905}, acceptInsecureCerts=false, browserVersion=75.0.3770.38, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true}]
+Session ID: b81346d75f3f261a5dcba5c5d8829dcc
+
