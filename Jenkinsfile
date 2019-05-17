@@ -11,7 +11,7 @@ pipeline {
         stage('Run tests') {
             steps {
                 dir('hebert'){
-                   sh '/Applications/apache-maven-3.6.1/bin/mvn test'
+                   sh '/Applications/apache-maven-3.6.1/bin/mvn test -X'
                 }
             }
         }
